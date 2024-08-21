@@ -1,0 +1,18 @@
+Description:
+
+I. API Automation - Shopee:
+The orders_extract_CRV.ipynb file handles Shopee API token management, retrieves orders and details using threading and asyncio for efficiency and handling of batch request, then processes data into a DataFrame. It saves the results to Google Cloud Platform and includes a method for fetching discount details.
+
+II. Keyword classification
+The fact_lzd_onsite_keyword.ipynb defines functions to clean keywords, extract subcategory data, and categorize keywords into 'Branded', 'Competitor', or 'Generic' based on fuzzy matching and predefined thresholds.
+It Uses fuzzy string matching and Levenshtein distance for brand prediction and categorization.
+
+III. Tiktok data scraping 
+The first file (Tiktok shop scrape): This script extracts product data from TikTok using API requests, processes and normalizes the data, and saves it into Excel files. It includes functions for live stream, video, order, affiliate order, and product data collection, with conditional execution based on the specified domain.
+
+The second file (Tiktok to GCP final): contains the workflow of reading files from excel, to data cleaning and uploading to BigQuery.
+
+
+
+
+
